@@ -1,0 +1,54 @@
+@font-face
+{
+	font-family: german;
+	src: url("../font/ABITE.ttf");
+}
+
+body{
+	background: url(../img/background3.jpg) no-repeat;
+	background-size:100%;
+}
+
+pre{
+	background: #333;
+	font-family: german;
+	margin: 0;
+	color: #CCC;
+	padding-top: 23px;
+	font-size: 67px;
+	text-align: center;
+	height: 79px;
+}
+
+label{
+	color: #FFF;
+}
+
+header{
+	background: #333;
+	height: 117px;
+	opacity: 0.6;
+}
+
+.form{
+	padding-top: 20px; 
+	margin-left:auto!important;
+	margin-right:auto!important;
+	width: 580px;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+	margin-top: 130px; 
+}
+
+.btn-info{
+	margin-left: 236px;
+}
+.boton{
+	padding: 0 26px;
+}
