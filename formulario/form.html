@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<Link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<Link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+	<header>
+		<pre><h1>Sistema   de   Gestion</h1></pre>
+		<h2>formulario</h2>
+	</header>
+	<body>
+		<form id="formulario" action="rails.rb" method="post">
+			<div class="form">
+				<div class="fleft">
+					<label>Nombre:</label> 
+					<input type="text" placeholder="Escriba aqui su nombre" name="nombre">
+					<label>Apellido:</label> 
+					<input type="text" placeholder="Escriba aqui su apellido" name="apellido">
+					<label>Email:</label>
+					<input type="email" placeholder="Escriba aqui su email" name="email">
+					<label>Contrasenha:</label>
+					<input type="password" name="contraseña">
+					<label>Fecha de Nacimiento:</label> 
+					<input type="date" id="fecha" name="apellido">
+					<label>Sexo:</label>
+					<label class="radio"><input type="radio" name="sex" value="masc">Masculino</label>
+					<label class="radio"><input type="radio" name="sex" value="fem">Femenino</label>
+					<button type="submit" class="btn-info"><label class="boton">Enviar</label></button>
+				</div>
+				<div class="fright">
+					<label>Confirmar email:</label>
+					<input type="email" name="email"><br>
+					<label>Confirmar contrasenha:</label>
+					<input type="password" name="contraseña2"><br>
+				</div>
+			</div>
+		</form>
+			
+	</body>
+
+</html>
