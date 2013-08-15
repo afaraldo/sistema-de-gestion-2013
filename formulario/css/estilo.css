@@ -46,7 +46,7 @@ h2{
 
 
 .form{
-	padding-top: 20px; 
+	padding-top: 20px;
 	margin-left:auto!important;
 	margin-right:auto!important;
 	width: 580px;
@@ -58,12 +58,9 @@ h2{
 
 .fright{
 	float: right;
-	margin-top: 130px; 
+	margin-top: 130px;
 }
 
-.btn-info{
+#registrar{
 	margin-left: 236px;
-}
-.boton{
-	padding: 0 26px;
 }
