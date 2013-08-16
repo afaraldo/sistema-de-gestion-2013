@@ -4,11 +4,14 @@ $(document).ready(function() {
     var email = readerUrl("email");
     var fecha = readerUrl("fecha");
     var sexo = readerUrl("sexo");
-    $("#nombre").append(nombre.toString().replace("%40","@"));
+    $("#nombre").append(nombre);
     $("#apellido").append(apellido.toString());
-    $("#email").append(email.toString());
+    $("#email").append(email.toString().replace("%40","@"));
     $("#fecha").append(fecha.toString());
     $("#sexo").append(sexo.toString());
+    $("#volver").click(function(){
+        window.location.href="form.html";
+    });
 });
 
 // opu = obtener parametro de url ;)
