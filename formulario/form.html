@@ -2,10 +2,16 @@
 <html>
 <head>
 	<title>Formulario</title>
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Adrian Aguero, Angel Miranda y Tamara Ortiz">
+	<meta charset="UTF-8">
 	<Link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<Link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<Link rel="stylesheet" type="text/css" href="css/ui-darkness/jquery-ui-1.10.3.custom.css">
 	<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
 	<script language="javascript" type="text/javascript" src="js/form.js"></script>
+	<script language="javascript" type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
 </head>
 	<header>
 		<pre><h1>Sistema   de   Gestion</h1></pre>
@@ -24,10 +30,16 @@
 					<label>Contrasenha:</label>
 					<input type="password" name="contraseña">
 					<label>Fecha de Nacimiento:</label>
-					<input type="date" id="fecha" name="apellido">
+					<input type="text" id="fecha"/>
 					<label>Sexo:</label>
-					<label class="radio"><input type="radio" name="sex" value="masc">Masculino</label>
-					<label class="radio"><input type="radio" name="sex" value="fem">Femenino</label>
+					<label class="radio">
+					  <input type="radio" name="sexo" id="optionsRadios1" value="Masculino" checked>
+					  Masculino
+					</label>
+					<label class="radio">
+					  <input type="radio" name="sexo" id="optionsRadios2" value="Femenino">
+					  Femenino
+					</label>
 					<button id="registrar" type="submit" class="btn btn-primary">
 						Registrar
 					</button>

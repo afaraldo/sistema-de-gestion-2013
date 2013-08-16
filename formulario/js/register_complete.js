@@ -1,5 +1,14 @@
 $(document).ready(function() {
-    var url = readerUrl("nombre");
+    var nombre = readerUrl("nombre");
+    var apellido = readerUrl("apellido");
+    var email = readerUrl("email");
+    var fecha = readerUrl("fecha");
+    var sexo = readerUrl("sexo");
+    $("#nombre").append(nombre.toString().replace("%40","@"));
+    $("#apellido").append(apellido.toString());
+    $("#email").append(email.toString());
+    $("#fecha").append(fecha.toString());
+    $("#sexo").append(sexo.toString());
 });
 
 // opu = obtener parametro de url ;)
